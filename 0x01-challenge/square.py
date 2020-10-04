@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
-class square():
-    
 
-    
+class square():
     def __init__(self, size=0, *args, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
